@@ -1,0 +1,31 @@
+/*    PHONE STYLES ========================================*/
+@media only screen and (max-width: 480px) {
+
+
+
+}  /*END PHONE STYLES ========================================*/
+
+
+
+
+
+/*    TABLET STYLES ========================================*/
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+
+
+
+}  /*END TABLET STYLES ========================================*/
+
+
+
+
+
+/*    DESKTOP STYLES ========================================*/
+@media only screen and (min-width: 769px) {
+
+
+
+
+}  /*END DESKTOP STYLES ========================================*/
+
+

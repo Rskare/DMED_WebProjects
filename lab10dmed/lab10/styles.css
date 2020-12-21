@@ -1,0 +1,214 @@
+/*    PHONE STYLES ========================================*/
+@media only screen and (max-width: 480px) {
+* {
+margin: 0px;
+padding: 0px;
+}
+
+#wrapper {
+width: 360px;
+font-family: 'Raleway', sans-serif;
+}
+
+#banner {
+height: 30px;
+background-color: #0066cc;
+}
+
+#h1 {
+    font-size: 1.2em;
+}
+
+#menu {
+width: 360px;
+float: right;
+margin: 0px 0px 10px 10px;
+padding: 15px 5px 30px 5px;
+background-color: black;
+}
+
+#menu ul {
+list-style: none;
+text-align: center;
+background-color: #000000;
+}
+
+#menu li {
+    margin: 20px 0px 40px 0px;
+}
+
+#menu a {
+border: solid;
+border-width: 1px;
+padding: 10px 80px 10px 80px;
+text-decoration: none;
+color: #000000;
+font-family: 'Hind';
+background-color: #ffffff;
+}
+
+#menu a:hover {
+color: #ffffff;
+background-color: #666666;
+}
+
+#left {
+    display: none;
+}
+
+#content {
+    padding: 20px;
+}
+
+
+}  /*END PHONE STYLES ========================================*/
+
+
+/*    TABLET STYLES ========================================*/
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+
+* {
+margin: 0px;
+padding: 0px;
+}
+
+#wrapper {
+width: 600px;
+border: solid;
+margin-right: auto;
+margin-left: auto;
+font-family: 'Raleway', sans-serif;
+}
+    
+#banner {
+height: 100px;
+background-color: #0066cc;
+}
+    
+#menu {
+font-family: 'Hind', sans-serif;
+width: 150px;
+float: right;
+margin: 0px 0px 10px 10px;
+padding: 15px 5px 30px 5px;
+background-color: black;
+}
+
+#menu ul {
+list-style: none;
+padding: ;
+text-align: center;
+background-color: #000000;
+}
+
+#menu li {
+    margin: 20px 0px 40px 0px;
+}
+
+#menu a {
+border: solid;
+border-width: 1px;
+padding: 10px 30px 10px 30px;
+text-decoration: none;
+color: #000000;
+font-family: 'Hind';
+background-color: #ffffff;
+}
+
+#menu a:hover {
+color: #ffffff;
+background-color: #666666;
+}
+
+#left {
+    display: none;
+}
+
+#content {
+    padding: 10px 20px 20px 10px;
+}
+
+
+}  /*END TABLET STYLES ========================================*/
+
+
+/*    DESKTOP STYLES ========================================*/
+@media only screen and (min-width: 769px) {
+    
+* {
+margin: 0px;
+padding: 0px;
+}
+
+#wrapper {
+width: 960px;
+margin-right: auto;
+margin-left: auto;
+font-family: 'Raleway', sans-serif;
+}
+
+#banner {
+height: 100px;
+background-color: #0066cc;
+}
+
+#menu {
+font-family: 'Hind', sans-serif;
+}
+
+#menu ul {
+width: 100%;
+list-style: none;
+padding: 5px 0px 5px 0px;
+margin-right: auto;
+margin-left: auto;
+text-align: center;
+background-color: #000000;
+}
+
+#menu li {
+display: inline;
+margin-right: 30px;
+}
+
+#menu a {
+border: solid;
+border-width: 1px;
+padding: 0px 20px 0px 20px;
+text-decoration: none;
+color: #000000;
+font-family: 'Hind';
+background-color: #ffffff;
+}
+
+#menu a:hover {
+color: #ffffff;
+background-color: #666666;
+}
+
+#left {
+display: block;
+width: 200px;
+height: 400px;
+background-color: #999999;
+float: left;
+font-family: 'Hind', sans-serif;
+}
+
+#right {
+width: 760px;
+float: left;
+}
+
+#sidebar {
+padding: 15px;
+font-size: .8em;
+color: #ffffff;
+}
+
+#content {
+padding: 20px;
+}
+}  /*END DESKTOP STYLES ========================================*/
+
+
